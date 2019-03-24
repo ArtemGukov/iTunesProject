@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC11CA7C2247B5B800805799 /* TrackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11CA7B2247B5B800805799 /* TrackController.swift */; };
 		AC11CA7E2247C85200805799 /* TracksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11CA7D2247C85200805799 /* TracksTableViewController.swift */; };
+		AC2291432247E6A5002D6724 /* iTunesProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2291422247E6A5002D6724 /* iTunesProjectTests.swift */; };
+		AC2291532247EA9C002D6724 /* iTunesProjectSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2291522247EA9C002D6724 /* iTunesProjectSlowTests.swift */; };
 		ACB94BDA2242B4310094E978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB94BD92242B4310094E978 /* AppDelegate.swift */; };
 		ACB94BDF2242B4310094E978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB94BDD2242B4310094E978 /* Main.storyboard */; };
 		ACB94BE12242B4320094E978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB94BE02242B4320094E978 /* Assets.xcassets */; };
@@ -16,9 +18,32 @@
 		ACB94BEE2242B4C10094E978 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB94BED2242B4C10094E978 /* Track.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AC2291452247E6A5002D6724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB94BCE2242B4310094E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB94BD52242B4310094E978;
+			remoteInfo = iTunesProject;
+		};
+		AC2291552247EA9C002D6724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB94BCE2242B4310094E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB94BD52242B4310094E978;
+			remoteInfo = iTunesProject;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		AC11CA7B2247B5B800805799 /* TrackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackController.swift; sourceTree = "<group>"; };
 		AC11CA7D2247C85200805799 /* TracksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksTableViewController.swift; sourceTree = "<group>"; };
+		AC2291402247E6A4002D6724 /* iTunesProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2291422247E6A5002D6724 /* iTunesProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesProjectTests.swift; sourceTree = "<group>"; };
+		AC2291442247E6A5002D6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2291502247EA9C002D6724 /* iTunesProjectSlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesProjectSlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2291522247EA9C002D6724 /* iTunesProjectSlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesProjectSlowTests.swift; sourceTree = "<group>"; };
+		AC2291542247EA9C002D6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB94BD62242B4310094E978 /* iTunesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB94BD92242B4310094E978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB94BDE2242B4310094E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +54,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC22913D2247E6A4002D6724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC22914D2247EA9C002D6724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB94BD32242B4310094E978 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,10 +106,30 @@
 			name = "Supporting files";
 			sourceTree = "<group>";
 		};
+		AC2291412247E6A5002D6724 /* iTunesProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2291422247E6A5002D6724 /* iTunesProjectTests.swift */,
+				AC2291442247E6A5002D6724 /* Info.plist */,
+			);
+			path = iTunesProjectTests;
+			sourceTree = "<group>";
+		};
+		AC2291512247EA9C002D6724 /* iTunesProjectSlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2291522247EA9C002D6724 /* iTunesProjectSlowTests.swift */,
+				AC2291542247EA9C002D6724 /* Info.plist */,
+			);
+			path = iTunesProjectSlowTests;
+			sourceTree = "<group>";
+		};
 		ACB94BCD2242B4310094E978 = {
 			isa = PBXGroup;
 			children = (
 				ACB94BD82242B4310094E978 /* iTunesProject */,
+				AC2291412247E6A5002D6724 /* iTunesProjectTests */,
+				AC2291512247EA9C002D6724 /* iTunesProjectSlowTests */,
 				ACB94BD72242B4310094E978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				ACB94BD62242B4310094E978 /* iTunesProject.app */,
+				AC2291402247E6A4002D6724 /* iTunesProjectTests.xctest */,
+				AC2291502247EA9C002D6724 /* iTunesProjectSlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +158,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC22913F2247E6A4002D6724 /* iTunesProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2291472247E6A5002D6724 /* Build configuration list for PBXNativeTarget "iTunesProjectTests" */;
+			buildPhases = (
+				AC22913C2247E6A4002D6724 /* Sources */,
+				AC22913D2247E6A4002D6724 /* Frameworks */,
+				AC22913E2247E6A4002D6724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2291462247E6A5002D6724 /* PBXTargetDependency */,
+			);
+			name = iTunesProjectTests;
+			productName = iTunesProjectTests;
+			productReference = AC2291402247E6A4002D6724 /* iTunesProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC22914F2247EA9C002D6724 /* iTunesProjectSlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2291572247EA9C002D6724 /* Build configuration list for PBXNativeTarget "iTunesProjectSlowTests" */;
+			buildPhases = (
+				AC22914C2247EA9C002D6724 /* Sources */,
+				AC22914D2247EA9C002D6724 /* Frameworks */,
+				AC22914E2247EA9C002D6724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2291562247EA9C002D6724 /* PBXTargetDependency */,
+			);
+			name = iTunesProjectSlowTests;
+			productName = iTunesProjectSlowTests;
+			productReference = AC2291502247EA9C002D6724 /* iTunesProjectSlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ACB94BD52242B4310094E978 /* iTunesProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB94BE82242B4320094E978 /* Build configuration list for PBXNativeTarget "iTunesProject" */;
@@ -124,6 +221,14 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Gukov.space;
 				TargetAttributes = {
+					AC22913F2247E6A4002D6724 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACB94BD52242B4310094E978;
+					};
+					AC22914F2247EA9C002D6724 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACB94BD52242B4310094E978;
+					};
 					ACB94BD52242B4310094E978 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -143,11 +248,27 @@
 			projectRoot = "";
 			targets = (
 				ACB94BD52242B4310094E978 /* iTunesProject */,
+				AC22913F2247E6A4002D6724 /* iTunesProjectTests */,
+				AC22914F2247EA9C002D6724 /* iTunesProjectSlowTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AC22913E2247E6A4002D6724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC22914E2247EA9C002D6724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB94BD42242B4310094E978 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +282,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC22913C2247E6A4002D6724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2291432247E6A5002D6724 /* iTunesProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC22914C2247EA9C002D6724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2291532247EA9C002D6724 /* iTunesProjectSlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB94BD22242B4310094E978 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +310,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2291462247E6A5002D6724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB94BD52242B4310094E978 /* iTunesProject */;
+			targetProxy = AC2291452247E6A5002D6724 /* PBXContainerItemProxy */;
+		};
+		AC2291562247EA9C002D6724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB94BD52242B4310094E978 /* iTunesProject */;
+			targetProxy = AC2291552247EA9C002D6724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACB94BDD2242B4310094E978 /* Main.storyboard */ = {
@@ -194,6 +344,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC2291482247E6A5002D6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7SHMN27XP;
+				INFOPLIST_FILE = iTunesProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.iTunesProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesProject.app/iTunesProject";
+			};
+			name = Debug;
+		};
+		AC2291492247E6A5002D6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7SHMN27XP;
+				INFOPLIST_FILE = iTunesProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.iTunesProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesProject.app/iTunesProject";
+			};
+			name = Release;
+		};
+		AC2291582247EA9C002D6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7SHMN27XP;
+				INFOPLIST_FILE = iTunesProjectSlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.iTunesProjectSlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesProject.app/iTunesProject";
+			};
+			name = Debug;
+		};
+		AC2291592247EA9C002D6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7SHMN27XP;
+				INFOPLIST_FILE = iTunesProjectSlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.iTunesProjectSlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesProject.app/iTunesProject";
+			};
+			name = Release;
+		};
 		ACB94BE62242B4320094E978 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,6 +579,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC2291472247E6A5002D6724 /* Build configuration list for PBXNativeTarget "iTunesProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2291482247E6A5002D6724 /* Debug */,
+				AC2291492247E6A5002D6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2291572247EA9C002D6724 /* Build configuration list for PBXNativeTarget "iTunesProjectSlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2291582247EA9C002D6724 /* Debug */,
+				AC2291592247EA9C002D6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ACB94BD12242B4310094E978 /* Build configuration list for PBXProject "iTunesProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
